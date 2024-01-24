@@ -1,0 +1,28 @@
+train: ./data_images/train
+val: ./data_images/valid
+test: ./data_images/test
+nc: 23
+names:
+    0: Armani
+    1: Bridgestone
+    2: Chanel
+    3: Charmzone
+    4: Cleveland
+    5: Coralian
+    6: Crews
+    7: GJ-Libarary
+    8: Lecaf
+    9: Louis-Vuitton
+    10: Nike
+    11: Reebok
+    12: Verawang
+    13: Zetes
+    14: Valansis
+    15: Polo
+    16: Vichy
+    17: Calvin-Klein
+    18: Gucci
+    19: ProSpecs
+    20: Victor
+    21: FrankMuller
+    22: Callaway
