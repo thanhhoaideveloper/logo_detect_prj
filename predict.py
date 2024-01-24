@@ -1,7 +1,35 @@
 from ultralytics import YOLO
 
-predict_folder = "assets/target"
-test_folder = "assets/test"
 
-model = YOLO("./model/bestV1.pt")
-result = model(test_folder, save = True, project=predict_folder, name='')
+model = YOLO("./model/bestV2.pt")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+predict_path = "assets/target"
+test_path = "assets/test"
+result = model(test_path, save = True, project=predict_path, conf=0.5)

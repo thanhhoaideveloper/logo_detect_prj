@@ -1,5 +1,6 @@
 /.venv
 /assets/test
 /assets/target
+/data
 # Except this file
 !.gitignore
