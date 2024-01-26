@@ -1,34 +1,7 @@
 from ultralytics import YOLO
 
 
-model = YOLO("./model/bestV2.pt")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+model = YOLO("./model/bestV5.pt")
 
 predict_path = "assets/target"
 test_path = "assets/test"
